@@ -7,10 +7,10 @@ Warm thanks to everyone who played it, and to those who bought the physical rele
 
 # Credits
 
-*Code & gfx: Furrtek
-*Sticker and instructions sheet artwork: Robotwo
-*Testing/QA: Dyak
-*Intro fanfare: Jankenpopp
-*Cartridge shells: Kitsch-Bent
-*PCBs: PCBCart
-*EEPROMs: Some dude in China
+* Code & gfx: Furrtek
+* Sticker and instructions sheet artwork: Robotwo
+* Testing/QA: Dyak
+* Intro fanfare: Jankenpopp
+* Cartridge shells: Kitsch-Bent
+* PCBs: PCBCart
+* EEPROMs: Some dude in China

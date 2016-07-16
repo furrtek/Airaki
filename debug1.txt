@@ -1,0 +1,25 @@
+But: Aligner minimum 3 icones en horizontal ou vertical (pas de diagonales)
+Si on aligne 4 icones, on multiplie par 2 l'attaque (popup +2)
+Si on aligne 5 icones, on multiplie par 3 (popup +3)
+Si on aligne horizontalement (plutot rare) on multiplie par 2 (popop HZ)
+
+L'ennemi est en haut
+
+Il y a un stack d'attaques, donc si tu resoud le tableau trop vite, ou qu'il y a plein d'enchainements,
+les attaques s'empilent et se jouent au fur et a mesure (pas un bug) jusqu'a ce que la liste soit vide.
+
+Bugs/defauts connus:
+L'emmeni attaque a intervales reguliers et sans prevenir, c'est normal
+Les boucliers ne font rien pour l'instant
+Les icones 5,6,7 non plus
+Les attaques n'ont presque pas d'animation, tu verras juste un bouclier partir de ton joueur vers l'ennemi
+Pas de victoire ou de game over, les barres de vie bouclent (0 -> 255)
+
+Voila ce que j'ai note pour le debug:
+
+;DEBUG: Verifier que les +2, +3, HZ font bien plus de degats que la normale
+;DEBUG: Verifier que chaque nouveau panel genere ne contient pas de match
+;DEBUG: Verifier qu'on ne peut jamais etre coince sans solutions
+;DEBUG: Verifier qu'un flip sans match s'annule (flip, puis reflip)
+;DEBUG: Verifier qu'on ne puisse pas bouger pendant la premiere anim de flip (on peut pendant le reflip)
+;DEBUG: Verifier que tous les pops se font bien (chaud, ralentir ?)
